@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-# Flutter_Provider
-=======
-# flutter_provider
->>>>>>> 5d277c1f2a330807cc2c420e0715c2fb731d9ed8
+Flutter_Provider
 
 A new Flutter project.
 
