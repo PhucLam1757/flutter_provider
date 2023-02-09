@@ -1,3 +1,5 @@
+import 'package:app_food_dx/data/search_state.dart';
+import 'package:app_food_dx/pages/search/search.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'data/cart_state.dart';
@@ -29,6 +31,7 @@ class MyApp extends StatelessWidget {
       providers: [
         ChangeNotifierProvider<CartState>(create: (context) => cartState),
         ChangeNotifierProvider<ProductState>(create: (context) => productState),
+        ChangeNotifierProvider<SearchState>(create: (context) => SearchState()),
       ],
       child: MaterialApp(
         title: 'Provider Ecommerce App',
@@ -45,6 +48,7 @@ class MyApp extends StatelessWidget {
       HomePage.routeName: (context) => HomePage(),
       ProductionPage.routeName: (context) => const ProductionPage(),
       CartPage.routeName: (context) => const CartPage(),
+      SearchPage.routeName: (context) => SearchPage(),
     };
   }
 }

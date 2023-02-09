@@ -1,10 +1,13 @@
 // ignore_for_file: public_member_api_docs, sort_constructors_first
+import 'package:app_food_dx/pages/draw/draw.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 
 import '../../components/custom_appbar.dart';
 import '../../constants/img_string.dart';
 import '../production/production_page.dart';
+import '../search/search.dart';
+import '../search/searchbox.dart';
 import 'components/categories_panel.dart';
 import 'components/hello_panel.dart';
 import 'components/product_panel.dart';
@@ -22,10 +25,10 @@ class HomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      drawer: Draw(),
       appBar: CustomAppBar(
         title: const Padding(
           padding: EdgeInsets.symmetric(vertical: 10.0),
-          child: HelloPanel(),
         ),
         centerTitle: false,
       ),
@@ -36,6 +39,9 @@ class HomePage extends StatelessWidget {
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.center,
               children: [
+                SearchBox(
+                  key: UniqueKey(),
+                ),
                 const SizedBox(height: 15),
                 SaleOffPanel(
                   saleOffImage: ImgString.KeyboardImg,
