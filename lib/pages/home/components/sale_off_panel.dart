@@ -36,7 +36,7 @@ class SaleOffPanel extends StatelessWidget {
     return CustomContainer(
       width: 350,
       borderShadow: true,
-      color: index.isEven ? Colors.deepOrange : Colors.blueAccent,
+      color: index.isEven ? Colors.redAccent : Colors.blueAccent,
       child: Row(
         children: [
           Flexible(
@@ -47,7 +47,7 @@ class SaleOffPanel extends StatelessWidget {
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                 children: [
                   const CustomText(
-                    text: '30% OFF DURING COVID 19',
+                    text: 'Get 50% off on your first order!',
                     textColor: Colors.white,
                     size: 28,
                   ),

@@ -19,7 +19,7 @@ final productState = ProductState(
   productionList: [
     ProductModel(
       id: 1,
-      name: 'keyboard 1',
+      name: 'Mechanical keyboard',
       image: ImgString.KeyboardImg,
       originalPrice: 200,
       size: 35,
@@ -29,7 +29,7 @@ final productState = ProductState(
     ),
     ProductModel(
       id: 2,
-      name: 'Keyboard 2',
+      name: 'Wireless keyboard',
       image: ImgString.KeyboardImg1,
       originalPrice: 150,
       size: 35,
@@ -38,9 +38,9 @@ final productState = ProductState(
           'A keyboard is a computer peripheral device that is used to input text, numbers, and other characters into a computer or similar device. It typically consists of buttons or keys arranged in a standard layout, such as the QWERTY layout, and is used in combination with other input devices, such as a mouse, to control the operation of the computer. Keyboards can be physical or virtual, and can be connected to a computer via a USB port, Bluetooth, or other wireless connection. They are an essential component of a computer system and are widely used for typing, data entry, and gaming.',
     ),
     ProductModel(
-      id: 1,
-      name: 'keyboard 1',
-      image: ImgString.KeyboardImg,
+      id: 3,
+      name: 'Membrane keyboard',
+      image: ImgString.KeyboardImg2,
       originalPrice: 200,
       size: 35,
       saleOffPrice: 140,
@@ -48,9 +48,9 @@ final productState = ProductState(
           'A keyboard is a computer peripheral device that is used to input text, numbers, and other characters into a computer or similar device. It typically consists of buttons or keys arranged in a standard layout, such as the QWERTY layout, and is used in combination with other input devices, such as a mouse, to control the operation of the computer. Keyboards can be physical or virtual, and can be connected to a computer via a USB port, Bluetooth, or other wireless connection. They are an essential component of a computer system and are widely used for typing, data entry, and gaming.',
     ),
     ProductModel(
-      id: 2,
-      name: 'Keyboard 2',
-      image: ImgString.KeyboardImg1,
+      id: 4,
+      name: 'Ergonomic keyboard',
+      image: ImgString.KeyboardImg,
       originalPrice: 150,
       size: 35,
       saleOffPrice: 130,
@@ -58,8 +58,8 @@ final productState = ProductState(
           'A keyboard is a computer peripheral device that is used to input text, numbers, and other characters into a computer or similar device. It typically consists of buttons or keys arranged in a standard layout, such as the QWERTY layout, and is used in combination with other input devices, such as a mouse, to control the operation of the computer. Keyboards can be physical or virtual, and can be connected to a computer via a USB port, Bluetooth, or other wireless connection. They are an essential component of a computer system and are widely used for typing, data entry, and gaming.',
     ),
     ProductModel(
-      id: 1,
-      name: 'keyboard 1',
+      id: 5,
+      name: 'Gaming keyboard',
       image: ImgString.KeyboardImg,
       originalPrice: 200,
       size: 35,
@@ -68,8 +68,8 @@ final productState = ProductState(
           'A keyboard is a computer peripheral device that is used to input text, numbers, and other characters into a computer or similar device. It typically consists of buttons or keys arranged in a standard layout, such as the QWERTY layout, and is used in combination with other input devices, such as a mouse, to control the operation of the computer. Keyboards can be physical or virtual, and can be connected to a computer via a USB port, Bluetooth, or other wireless connection. They are an essential component of a computer system and are widely used for typing, data entry, and gaming.',
     ),
     ProductModel(
-      id: 2,
-      name: 'Keyboard 2',
+      id: 6,
+      name: 'Compact keyboard',
       image: ImgString.KeyboardImg1,
       originalPrice: 150,
       size: 35,
